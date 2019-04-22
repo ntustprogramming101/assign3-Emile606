@@ -103,7 +103,7 @@ void draw() {
 		rect(0, 160 - GRASS_HEIGHT, width, GRASS_HEIGHT);
 
 		// Soil - REPLACE THIS PART WITH YOUR LOOP CODE!
-     for (int y = 0 ; y < 25 ; y += 1){
+     for (int y = 0 ; y < 24 ; y += 1){
        for(int x = 0 ; x < 9 ; x += 1){
          allX = soilX+(soilH*x); 
          allY = soilY+(soilH*y);
